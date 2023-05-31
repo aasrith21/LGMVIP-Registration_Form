@@ -1,1 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>EXAM REGISTRATION FORM</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+            <h1>EXAM REGISTRATION FORM</h1>
+        <table  >
+        <thead>
+        <tr>
+        <th>FIRST NAME - </th>
+					<td><input type="text" name="fname" id="fname"></td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+		<th>LAST NAME - </th>
+					<td><input type="text" name="lname" id="lname"></td>
+				</tr>
+				<tr>
+					<th>EMAIL-ID - </th>
+					<td><input type="text" name="email" id="email"></td>
+				</tr>
+				<tr>
+					<th>AGE - </th>
+					<td><input type="text" name="age" id="age"></td>
+				</tr>
+                <tr>
+					<th>MOBILE NUMBER - </th>
+					<td><input type="text" name="mobile" id="mobile"></td>
+				</tr>
+                <tr>
+				<tr id="btna">
+					<td colspan="2"><input type="button" name="button" id="btn" value="SUBMIT" onclick="AddRow()"></td>
+				</tr>
+         
+			</tbody>
+		</table>
 
+		<table  id="show">
+			<thead>
+				<tr>
+					<th>FIRST NAME</th>
+					<th>LAST NAME</th>
+					<th>EMAIL-ID</th>
+					<th>AGE</th>
+                    <th>MOBILE NUMBER</th>
+				</tr>
+			</thead>
+		</table>
+	</center>
+	<script src="script.js"></script>
+</body>
+	
+</html>
