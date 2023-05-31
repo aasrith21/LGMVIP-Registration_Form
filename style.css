@@ -1,0 +1,65 @@
+table{
+	margin-top: 70px;
+	text-align: center;
+	border: 40px;
+	border-color: solid black;
+	border-collapse: collapse;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+
+#show td{
+	padding: 13px;
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+	background-color: rgb(255, 253, 255);
+}
+
+#btna td input{
+	margin-top: 8%;
+	padding: 10px;
+	border: none;
+	border-radius: 0.2px;
+	cursor: pointer;
+	outline: none;
+	background: linear-gradient(
+		90deg,
+		rgb(0, 81, 255) 0%,
+		rgb(3, 196, 255) 100%
+	);
+	color: #fff;
+	
+	text-transform: capitalize;
+
+}
+#btna td input:hover{
+	background: linear-gradient(
+	  90deg,
+	  rgb(195, 0, 255) 0%,
+	  rgb(255, 2, 99) 100%
+	);
+  }
+
+
+#show th{
+	padding: 20px;
+	border: 1px;
+	border-style: solid;
+	border-color: rgb(255, 255, 255);
+	background: linear-gradient( 
+    rgb(0, 221, 255),
+    rgb(255, 0, 200) 
+    );
+}
+
+body{
+	background: linear-gradient(
+    90deg,
+    rgb(4, 142, 255),
+    rgb(1, 255, 64),
+    rgb(255, 0, 242) );
+}
